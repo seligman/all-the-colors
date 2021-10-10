@@ -1,0 +1,26 @@
+# Ignore the root helpers, and the private code
+/command_opts.py
+/bounce_git.py
+/private/*
+
+# Ignore my little stats side-project
+/stats/*
+
+# Ignore VS Code stuff
+**/.vscode/
+
+# Python pre-compiled things
+**/__pycache__/
+*.py[cod]
+*$py.class
+**/pythonenv*/
+
+# Visual Studio folders
+**/.vs/
+**/bin/
+**/obj/
+
+# Temp files
+*~
+**/.DS_Store/
+**/debug.log
